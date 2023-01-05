@@ -18,6 +18,9 @@ elif operation_type == "multiplying":
     result = number_1 * number_2
     print(result)
 
-else:
+elif operation_type == "dividing":
     result = number_1 / number_2
     print(result)
+
+else:
+    print("Invalid operation!")
